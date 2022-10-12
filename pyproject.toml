@@ -1,0 +1,17 @@
+[project]
+name = 'python'
+version = '0.0.1'
+description = 'Library to store Python procedures'
+license = {text = 'MIT'}
+
+[tool.poetry]
+packages = ['python']
+
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+
+[tool.pytest.ini_options]
+minversion = '6.0'
+addopts = '-ra -q'
+testpaths = ['tests']
