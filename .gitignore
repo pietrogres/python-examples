@@ -14,4 +14,3 @@ eggs/
 wheels/
 dist/
 config.json
-poetry.lock
