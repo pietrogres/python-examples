@@ -114,4 +114,6 @@ repos:
     stages:
     - commit
     language: system
+    additional_dependencies:
+      - notebook==6.5.4
     entry: jupyter nbconvert --ClearOutputPreprocessor.enabled=True --ClearMetaDataPreprocessor.enabled=True --inplace
