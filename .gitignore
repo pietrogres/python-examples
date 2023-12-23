@@ -1,0 +1,16 @@
+.idea
+.vscode
+.ipynb_checkpoints
+*.csv
+.pytest_cache/
+__pycache__/
+
+# distribution / packaging
+*.egg-info
+*.egg
+.eggs/
+build/
+eggs/
+wheels/
+dist/
+config.json
