@@ -29,6 +29,7 @@ from tensorflow.keras import backend as K
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.models import Sequential
+from IPython.display import display
 
 distribution_plots = ['hist', 'violin', 'box']
 num_types = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
@@ -374,9 +375,9 @@ def plot_regression_errors(reg_model, x_train, x_val, y_train, y_val, target, fi
     y_val_pred = reg_model.predict(x_val)
 
     # assess data types
-    if type(y_train) == pd.core.frame.DataFrame:
+    if y_train is pd.core.frame.DataFrame:
         y_train = convert_pd_dataframe_to_np_array(y_train)
-    if type(y_val) == pd.core.frame.DataFrame:
+    if y_val is pd.core.frame.DataFrame:
         y_val = convert_pd_dataframe_to_np_array(y_val)
 
     plt.figure(figsize=figsize)
