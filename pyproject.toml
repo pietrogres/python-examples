@@ -6,7 +6,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "python_examples"
-version = "0.0.1"
+version = "0.0.2"
 description = "Example code for a variety of tasks in python"
 authors = ["pietro greselin <p.greselin@gmail.com>"]
 packages = [ { include = 'python'} ]
