@@ -8,8 +8,10 @@ The aim of this repository is to collect and organise Python code for different 
 
 You can find the following notebooks:
 
-- [example_python.ipynb](python/example_ml.ipynb): this manual contains an overview on a variety of python methods and libraries that are useful in a wide range of different applications;
-- [example_ml.ipynb](python/example_python.ipynb): this manual contains a recap on common Machine Learning algorithms and procedures.
+- [01_manual_python.ipynb](python/01_manual_python.ipynb): this manual contains an overview on a variety of python methods and libraries that are useful in a wide range of different applications;
+- [02_manual_pandas.ipynb](python/02_manual_pandas.ipynb): this manual summary of pandas main methods and techniques to work with DataFrames and Series;
+- [03_manual_plots.ipynb](python/03_manual_plots.ipynb): this manual contains an overview on different libraries for data representation;
+- [04_manual_ml.ipynb](python/04_manual_ml.ipynb): this manual contains a recap on common Machine Learning algorithms and procedures.
 
 ## Contributors
 
